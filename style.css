@@ -272,6 +272,7 @@ nav button:hover {
 }
 
 .gara {
+  width: fit-content;
   height: fit-content;
   font-size: 15px;
   justify-content: center;
@@ -279,6 +280,7 @@ nav button:hover {
   border: transparent;
   margin: 1rem;
   font-family: sans-serif;
+;
 }
 /* ----contact----- */
 
