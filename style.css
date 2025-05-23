@@ -306,6 +306,9 @@ nav button:hover {
   column-gap: 1rem;
   font-size: 1.5rem;
 }
+#Contact .socials i:hover {
+background-color: #f14304;
+}
 #Contact button {
   background-color: #f14304;
   padding: 0.5rem 1rem;
