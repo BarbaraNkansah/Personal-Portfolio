@@ -1,0 +1,289 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: white;
+}
+nav span{
+  font-size: 2rem;
+}
+.fame {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+ .fame li{
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-top: 2%;
+  transition: 0.4s ease;
+  cursor: pointer;
+}
+
+.fame li:hover {
+  color: white;
+  background-color: #FF0A0A;
+  font-style: italic;
+}
+
+#hero {
+  background-image: url(assets/hello.jpg);
+  height: 100vh;
+  /* width: -100rem; */
+  background-position: 40% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: size 30px 10px;  */
+  background-blend-mode: darken;
+  /* padding-bottom: 700px; */
+  background-color: rgba(0, 0, 0, 0.665);
+  font-family: sans-serif;
+
+}
+body{
+  background-color: #4e4e5123;
+}
+
+ nav strong{
+margin-top: 1rem;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  text-align: left;
+  margin-left: -13rem;
+  line-height: 10px;
+  color: white;
+  padding: 18rem;
+  font-family: "sans-serif";
+}
+
+.overlay h1 {
+  font-size: 65px;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.overlay h3 {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+.overlay span {
+  color: #f7cfc1;
+}
+nav button {
+  padding: 1px;
+  width: 11rem;
+  margin-top: 15px;
+  font: 18px inter sans-serif;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.365);
+}
+nav button:hover {
+  background-color: #ff0a0aee;
+}
+
+#perosection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 4rem;
+  column-gap: 2rem;
+  margin-top: -3.5rem;
+  font-family: sans-serif;
+  box-shadow: 10px 10px 5px red;
+}
+
+#perosection div {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 10px;
+}
+#perosection div:hover{
+  position: relative;
+  top: -4px;
+}
+
+#perosection div i {
+  font-size: 2rem;
+  background-color:  #f7cfc1;
+  color: #f14304;
+  padding: 1rem 0.5rem;
+  margin-top: 1rem;
+  border-radius: 100%;
+}
+#perosection div h3 {
+  font-size: 1.5rem;
+}
+#perosection div p {
+  font-size: 1rem;
+  margin: 1rem;
+  padding: 10px;
+  text-transform: inherit;
+}
+
+#perosection div button{
+  transform: none;
+  background-color: transparent;
+  border: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+#perosection div b{
+  padding-left: 18px;
+}
+
+.about-image img {
+  height: 50rem;
+  margin-right: 8rem;
+  margin-top: 2rem;
+  padding: 60px;
+  max-width: 100vh;
+  max-block-size: 35rem;
+  border-radius: 5rem;
+}
+#about {
+  display: flex;
+  position: relative;
+  font-family: sans-serif;
+}
+.about-content {
+  position: absolute;
+  left: 500px;
+  margin: 5rem;
+  margin-top: 11rem;
+  line-height: 1.5rem;
+}
+.about-content h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  
+}
+.about-content p {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.3rem;
+  font-family: serif;
+}
+.tab{
+  margin-right: 0%;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.Tape{
+display: flex;
+direction:row;
+justify-content: space-between;
+font-family: sans-serif;
+}
+.Tape p{
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 100;
+}
+.Edu{
+  margin-right:15px;
+}
+.about-content button{
+  font-size: 16px;
+  margin-left: 20rem;
+  border: none;
+  background-color: transparent;
+}
+.kora p{
+  margin-right:9rem;
+}
+/* ------services----- */
+
+#services{
+  padding: 30px 0;
+
+
+}
+.services-list{
+  display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+
+
+}
+
+.services-list div{
+  padding: 40px;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: rgba(0, 0, 0, 0.014);
+
+
+}
+.services-list div i{
+  font-size: 40px;
+  margin-bottom: 3px;
+  color: #f14304;
+background-color:#F7CFC1 ;
+transition: backgroud 0.5s, transform 0.5s;
+}
+
+.services-list div:hover{
+background: #f7cfc1;
+transform: translateY(-20px);
+}
+
+.services-list div button{
+  border: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color:rgba(245, 245, 245, 0.145) ;
+}
+.services-list div button b{
+  margin-left: 10px;
+}
+  /* ---portfolio---- */
+
+  #portfoli{
+    padding: 50px;
+  }
+  .work-list{
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-gap: 40px;
+margin-top: 50px;
+  }
+  .work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  .gara {
+font-size: 100px;
+justify-content: center;
+  }
+  /* ----contact----- */
+
+.Contact-left{
+  flex-basis:35%;
+}
+.Contact-right{
+flex-basis: 60%;
+}
+
